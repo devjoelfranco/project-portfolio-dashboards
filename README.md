@@ -1,47 +1,26 @@
 # Objetivo
-O objetivo deste painel é analisar as principais métricas dos colaboradores da empresa, a fim de proporcionar uma visão estratégica para a empresa. O foco também foi adicionar interatividade entre os painéis, tornando a análise mais robusta e informativa.
+Esta documentação tem como objetivo apresentar a arquitetura do serviço repositório **"project-portfolio-dashboards"**, de forma clara e objetiva, a fim de simplificar a compreensão de todos os seus componentes e funcionamento. Esse repositório é responsável por guardar o meu aprendizado relacionado a Data Viz e Storytelling com as principais ferramentas do mercado.
 
-# Principais Análises
-Três abas foram criadas, cada uma com um enfoque específico. A primeira oferece uma visão geral da empresa, enquanto a segunda se dedica à análise de valores e folhas de pagamento. A terceira aba se destina à avaliação das pesquisas de satisfação realizadas com os atuais funcionários.
+Você vai encontrar os Dashboards na pasta **"Dashboards"**. Em cada pasta você vai encontrar:
 
-## Aba Menu
-- Headcount
-- Contratações
-- Demissões
-- % Má Contratação
-- Folha
-- Contratações e Demissões por Período
-- Turnover e Turnover YoY
-- Headcount por Genêro
-- Headcount por Modo de Trabalho
-- Headcount por Idade
-![Dashboard](Ativos/AbaMenu.png)
+| Ativo  | Razão   |
+|---|---|
+| **.pbix** | Dashboard |
+| **README.md** | Documentação |
+| **Fontes** | Todas as Bases de Dados utilizadas para alimentar o Dashboard  |
+| **Ativos** | Tudo que foi utilizado para criação do Template e Design do Dashboard |
 
-## Aba Folha
-- Folha de Pagamento por Período
-- Folha por Genêro
-- Tabela - Contratações Recentes
-- Folha de Pagamento por Cargo
-![Dashboard](Ativos/AbaFolha.png)
 
-## Aba Pesquisa de Satisfação
-- Quantidade de Perguntas
-- Entrevistas
-- Participantes
-- Detalhes sobre Pesquisa (Comparativo)
-- Total de Pesquisas
-- Gráfico Individual para cada Tópico Abordado na Entrevista
-![Dashboard](Ativos/AbaPesquisa.png)
 
-# Arquitetura
-![architecture.png](Ativos/architecture.png)
+### Pastas e Soluçoes:
 
-# Tecnologias
-
-- Excel
-- Figma
-- Power BI (Power Query, DAX)
-
+| Soluções  |Objetivo   |
+|---|---|
+| [Logística](Dashboards/Logistica/README.md)| O objetivo deste dashboard é analisar as principais métricas relacionadas à logística da empresa, proporcionando um insight estratégico para a organização. O foco também foi incorporar a interatividade entre os painéis, potencializando a análise com maior profundidade e informação.|
+| [PeopleAnalytics](Dashboards/PeopleAnalytics/README.md)| O objetivo deste dashboard é analisar as principais métricas dos colaboradores da empresa, a fim de proporcionar uma visão estratégica para a empresa. O foco também foi adicionar interatividade entre os painéis, tornando a análise mais robusta e informativa.|
+| [Vendas](Dashboards/Vendas/README.md)| O objetivo deste dashboard é analisar as principais métricas de vendas de uma empresa do ramo fitness, a fim de proporcionar uma visão estratégica para a empresa. O foco também foi adicionar interatividade entre os painéis, tornando a análise mais robusta e informativa.|
+| [NBA](Dashboards/NBA/README.md) | O propósito deste dashboard é analisar as principais métricas dos maiores jogadores da NBA, incluindo uma aba "Lado a Lado", a fim de proporcionar uma visão comparativa entre eles. O foco também foi adicionar interatividade entre os painéis, tornando a análise mais robusta e bonita. |
+| [Formula01](Dashboards/Formula01/README.md)| Este dashboard foi projetado para oferecer uma análise abrangente das corridas, equipes e pilotos da Fórmula 1. Vamos ter as abas “Corridas”, “Equipes” e “Pilotos”  ambas permitem uma comparação direta entre os elementos-chave, enquanto a interatividade aprimora a experiência do usuário.|
 
 ---
 ---
@@ -50,46 +29,23 @@ Três abas foram criadas, cada uma com um enfoque específico. A primeira oferec
 ---
 
 # Objective
+This documentation aims to present the architecture of the repository service **"project-portfolio-dashboards"** in a clear and concise manner, in order to simplify the understanding of all its components and operation. This repository is responsible for storing my learning related to Data Viz and Storytelling with the main market tools.
 
-The purpose of this dashboard is to analyze key metrics of company employees, providing a strategic overview for the organization. The focus was also on adding interactivity between panels, making the analysis more robust and informative.
+You will find the Dashboards in the **"Dashboards"** folder. In each folder, you will find:
 
-# Key Analyses
-Three tabs have been created, each with a specific focus. The first provides an overview of the company, while the second is dedicated to the analysis of values and payroll. The third tab is intended for evaluating satisfaction surveys conducted with current employees.
+| Asset | Purpose |
+|---|---|
+| **.pbix** | Dashboard |
+| **README.md** | Documentation |
+| **Sources** | All databases used to feed the Dashboard |
+| **Assets** | Everything used for the creation of the Template and Dashboard Design |
 
-## Menu Tab
-- Headcount
-- Hires
-- Terminations
-- % New Hires
-- Payroll
-- Hires and Terminations by Period
-- Turnover and Turnover YoY
-- Headcount by Gender
-- Headcount by Work Mode
-- Headcount by Age
-![Dashboard](Ativos/AbaMenu.png)
+### Folders and Solutions:
 
-## Payroll Tab
-- Payroll by Period
-- Payroll by Gender
-- Table - Recent Hires
-- Payroll by Position
-![Dashboard](Ativos/AbaFolha.png)
-
-## Satisfaction Survey Tab
-- Number of Questions
-- Interviews
-- Participants
-- Survey Details (Comparative)
-- Total Surveys
-- Individual Graph for Each Topic Addressed in the Interview
-![Dashboard](Ativos/AbaPesquisa.png)
-
-# Architecture
-![architecture.png](Ativos/architecture.png)
-
-# Technologies
-
-- Excel
-- Figma
-- Power BI (Power Query, DAX)
+| Solutions | Objective |
+|---|---|
+| [Logística](Dashboards/Logistica/README.md)| The aim of this dashboard is to analyze key metrics related to the logistics of the company, providing a strategic insight for the organization. The focus was also on incorporating interactivity between panels, enhancing the analysis with greater depth and information.|
+| [PeopleAnalytics](Dashboards/PeopleAnalytics/README.md)| The purpose of this dashboard is to analyze key metrics of company employees, providing a strategic overview for the organization. The focus was also on adding interactivity between panels, making the analysis more robust and informative.|
+| [Vendas](Dashboards/Vendas/README.md)| The aim of this dashboard is to analyze key sales metrics for a fitness industry company, providing a strategic overview for the business. The focus was also on adding interactivity between panels, making the analysis more robust and informative.|
+| [NBA](Dashboards/NBA/README.md) | The purpose of this panel is to analyze the key metrics of the greatest NBA players, including a "Side-by-Side" tab, to provide a comparative view between them. The focus was also on adding interactivity between the panels, making the analysis more robust and visually appealing. |
+| [Formula01](Dashboards/Formula01/README.md) | This dashboard was designed to offer a comprehensive analysis of Formula 1 races, teams, and drivers. We will have tabs for "Races," "Teams," and "Drivers," all allowing a direct comparison between key elements, while interactivity enhances the user experience. |
