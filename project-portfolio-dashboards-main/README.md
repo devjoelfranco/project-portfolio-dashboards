@@ -22,11 +22,6 @@ Você vai encontrar os Dashboards na pasta **"Dashboards"**. Em cada pasta você
 | [NBA](Dashboards/NBA/README.md) | O propósito deste dashboard é analisar as principais métricas dos maiores jogadores da NBA, incluindo uma aba "Lado a Lado", a fim de proporcionar uma visão comparativa entre eles. O foco também foi adicionar interatividade entre os painéis, tornando a análise mais robusta e bonita. |
 | [Formula01](Dashboards/Formula01/README.md)| Este dashboard foi projetado para oferecer uma análise abrangente das corridas, equipes e pilotos da Fórmula 1. Vamos ter as abas “Corridas”, “Equipes” e “Pilotos”  ambas permitem uma comparação direta entre os elementos-chave, enquanto a interatividade aprimora a experiência do usuário.|
 
----
----
----
----
----
 
 # Objective
 This documentation aims to present the architecture of the repository service **"project-portfolio-dashboards"** in a clear and concise manner, in order to simplify the understanding of all its components and operation. This repository is responsible for storing my learning related to Data Viz and Storytelling with the main market tools.
